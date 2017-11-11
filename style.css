@@ -1,0 +1,174 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+    font-weight: 100;
+}
+a {-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.header-top-area {
+  padding: 18px;
+}
+.header-top-area, .header-top-area a {
+  background: #218ae6 none repeat scroll 0 0;
+  color: #fff;
+}
+.header-left {}
+.header-left p {
+  margin: 0;
+}
+.header-right {}
+.header-right a {}
+.header-right i.fa {
+  margin-right: 15px;
+  padding-left: 30px;
+}
+.header-area {}
+.logo {}
+.logo h3 {
+  margin: 0;
+  padding: 25px 0;
+}
+.logo h3 a {
+  color: #212121;
+  font-size: 28px;
+  font-weight: 700;
+}
+.mainmenu {}
+.mainmenu ul {}
+.mainmenu ul li {
+  display: inline-block;
+}
+.mainmenu ul li a {
+  color: #222222;
+  text-transform: uppercase;
+  padding: 30px 15px;
+  display: block;
+  padding-right: 0;
+  padding-left: 40px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.mainmenu ul li:hover a {
+    color: #218AE6;
+}
+.slider-area {
+  background: #218ae6 none repeat scroll 0 0;
+  color: #fff;
+  padding: 120px 0 170px;
+}
+.homepage-slide {}
+.slider-content {}
+.slider-content h2 {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.slider-content p {
+  margin-bottom: 40px;
+}
+.slider-content a.slide-btn {
+  background: #f9cf25 none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #333;
+  display: inline-block;
+  font-weight: 700;
+  padding: 10px 25px;
+  text-transform: uppercase;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+a.slide-btn i.fa {
+  margin-left: 15px;
+}
+.slider-content a.slide-btn:hover {
+    color: #fff;
+    background: #333;
+    text-shadow: 0 3px 2px #fff;
+}
+.slider-img {}
+.slider-img img {}
+.homepage-slide .owl-dots div {
+  background: #fffeff none repeat scroll 0 0;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin: 0 5px;
+  width: 10px;
+}
+.homepage-slide .owl-dots {
+  bottom: -115px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+.homepage-slide .owl-dot.active {
+    background: #FFC849;
+    -webkit-transition: .3s;
+    transition: .3s;
+}

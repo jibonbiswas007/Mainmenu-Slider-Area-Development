@@ -1,0 +1,118 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.mainmenu ul li a {
+  padding: 30px 0 30px 25px;
+}
+    
+}
+    
+
+/* tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.slider-content h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+.mainmenu ul li a {
+  font-size: 13px;
+  padding: 25px 0 25px 18px;
+}
+.logo h3 {
+  margin: 0;
+  padding: 20px 0;
+}
+.slider-content p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.slider-content a.slide-btn {
+  font-size: 13px;
+  padding: 8px 12px;
+}
+.slider-area {
+  padding: 90px 0 120px;
+}
+.homepage-slide .owl-dots {
+  bottom: -80px;
+}
+    
+    
+
+}
+
+    
+    
+/* Small Mobile :320px. */
+
+@media (max-width: 767px) {
+.header-right {
+  text-align: center;
+}
+.header-top-area, .header-right {
+  text-align: center;
+}
+.header-right i.fa {
+  padding-left: 0;
+}
+.header-right a {
+  display: block;
+}
+.header-left {
+  margin-bottom: 10px;
+}
+.logo {
+  text-align: center;
+}
+.mainmenu ul li a {
+  font-size: 12px;
+  padding: 5px;
+}
+.mainmenu {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.slider-content h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.slider-content p {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+.slider-content a.slide-btn {
+  font-size: 10px;
+  padding: 6px 10px;
+}
+.slider-content {
+  margin-bottom: 35px;
+  text-align: center;
+}
+.slider-area {
+  color: #fff;
+  padding: 50px 0 100px;
+}
+.homepage-slide .owl-dots {
+  bottom: -55px;
+}
+
+    
+    
+    
+    
+    
+
+}
+    
+    
+    
+/* Large Mobile :480px. */
+
+
+
+}
